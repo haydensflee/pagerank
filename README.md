@@ -16,5 +16,12 @@ Before the mathematical logic was implemented the algorithm efficiency and metho
 
 ![image](https://github.com/haydensflee/pagerank/assets/89950637/5d043466-63a4-458c-b1c1-2e5272811df2)
 
-𝑑 is the damping factor, 𝑁 is the total number of pages, 𝑝𝑖 is the page under consideration, 𝑝𝑗 is the inbound page to 𝑝𝑖, 𝑃𝑅 is the pagerank and 𝐿 is the outgoing page count. This was performed for 50 iterations which was sufficient for the pageranks to converge.
+- 𝑑 is the damping factor
+- 𝑁 is the total number of pages
+- 𝑝𝑖 is the page under consideration
+- 𝑝𝑗 is the inbound page to 𝑝𝑖
+- 𝑃𝑅 is the pagerank
+- 𝐿 is the outgoing page count.
+
+This was performed for 50 iterations which was sufficient for the pageranks to converge.
 The pagerank information is stored into a dictionary that stores <nodenumber, pagreank>. This was then sorted in descending order of pageranks and written to two text files, one for the top 10 pageranks and one for all 875713 nodes.
