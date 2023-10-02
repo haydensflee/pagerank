@@ -1,5 +1,5 @@
 # pagerank
-Python implementation of the PageRank algorithm
+Python implementation of the PageRank algorithm on the [web-Google dataset](http://snap.stanford.edu/data/web-Google.html)
 
 ## Context
 PageRank (PR) is an algorithm used by Google Search to rank websites in their search engine results. PageRank was named after Larry Page, one of the founders of Google. PageRank is a way of measuring the importance of website pages. According to Google:
